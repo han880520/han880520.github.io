@@ -17,7 +17,7 @@
 
   $('#nav-search-btn').on('click', function(){
     if (isSearchAnim) return;
-
+    console.log(123)
     startSearchAnim();
     $searchWrap.addClass('on');
     stopSearchAnim(function(){
